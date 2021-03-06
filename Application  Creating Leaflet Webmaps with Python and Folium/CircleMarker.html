@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6627c5bbbe954b1f8f25e53b87ed88ac {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_6627c5bbbe954b1f8f25e53b87ed88ac" ></div>
+        
+</body>
+<script>    
+    
+            var map_6627c5bbbe954b1f8f25e53b87ed88ac = L.map(
+                "map_6627c5bbbe954b1f8f25e53b87ed88ac",
+                {
+                    center: [45.372, -121.6972],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c6acc50904a14c46b47702d399fe26cc = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6627c5bbbe954b1f8f25e53b87ed88ac);
+        
+    
+            var marker_680daba344b84dc78a3fe6b76c10f1b5 = L.marker(
+                [45.3288, -121.6625],
+                {}
+            ).addTo(map_6627c5bbbe954b1f8f25e53b87ed88ac);
+        
+    
+            var icon_6e979575da3a4d17a8ce222cb4530e4b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_680daba344b84dc78a3fe6b76c10f1b5.setIcon(icon_6e979575da3a4d17a8ce222cb4530e4b);
+        
+    
+        var popup_1da8147706474366bab08c446ce19905 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3936594cc8564b4986744ddbf4f72573 = $(`<div id="html_3936594cc8564b4986744ddbf4f72573" style="width: 100.0%; height: 100.0%;">Mt. Hood Meadows</div>`)[0];
+            popup_1da8147706474366bab08c446ce19905.setContent(html_3936594cc8564b4986744ddbf4f72573);
+        
+
+        marker_680daba344b84dc78a3fe6b76c10f1b5.bindPopup(popup_1da8147706474366bab08c446ce19905)
+        ;
+
+        
+    
+    
+            var marker_fcd08d0a0e034da196ce00ab8fef6d1e = L.marker(
+                [45.3311, -121.7113],
+                {}
+            ).addTo(map_6627c5bbbe954b1f8f25e53b87ed88ac);
+        
+    
+            var icon_7bcc0e57f54344d9bee583aade1ac253 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fcd08d0a0e034da196ce00ab8fef6d1e.setIcon(icon_7bcc0e57f54344d9bee583aade1ac253);
+        
+    
+        var popup_6d1160077d0a48ffa195234d2de862a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_698f9ec1e5f948e5b4c8ca1fa29d7599 = $(`<div id="html_698f9ec1e5f948e5b4c8ca1fa29d7599" style="width: 100.0%; height: 100.0%;">Timberline Lodge</div>`)[0];
+            popup_6d1160077d0a48ffa195234d2de862a7.setContent(html_698f9ec1e5f948e5b4c8ca1fa29d7599);
+        
+
+        marker_fcd08d0a0e034da196ce00ab8fef6d1e.bindPopup(popup_6d1160077d0a48ffa195234d2de862a7)
+        ;
+
+        
+    
+    
+            var marker_90936bb1fbad418fa650d234b5a57659 = L.marker(
+                [45.33, -121.6823],
+                {}
+            ).addTo(map_6627c5bbbe954b1f8f25e53b87ed88ac);
+        
+    
+            var icon_ad185f0a3c8b41ebbacf5fb6a02b488a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_90936bb1fbad418fa650d234b5a57659.setIcon(icon_ad185f0a3c8b41ebbacf5fb6a02b488a);
+        
+    
+        var popup_79f17f255bc14892a7c77733516e3e59 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_11eb3271a9b94f03a34482dc793f6c48 = $(`<div id="html_11eb3271a9b94f03a34482dc793f6c48" style="width: 100.0%; height: 100.0%;">Some Other Location</div>`)[0];
+            popup_79f17f255bc14892a7c77733516e3e59.setContent(html_11eb3271a9b94f03a34482dc793f6c48);
+        
+
+        marker_90936bb1fbad418fa650d234b5a57659.bindPopup(popup_79f17f255bc14892a7c77733516e3e59)
+        ;
+
+        
+    
+</script>
