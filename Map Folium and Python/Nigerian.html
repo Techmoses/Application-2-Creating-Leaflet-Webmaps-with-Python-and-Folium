@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_95a96b304a664cbba74b491c91e1508f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_95a96b304a664cbba74b491c91e1508f" ></div>
+        
+</body>
+<script>    
+    
+            var map_95a96b304a664cbba74b491c91e1508f = L.map(
+                "map_95a96b304a664cbba74b491c91e1508f",
+                {
+                    center: [9.0778, 8.6775],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fa9f17144a5342bca12bde69a181a746 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_95a96b304a664cbba74b491c91e1508f);
+        
+    
+            var marker_9820f4c0ae7f4e819fb0cb96ce6075e6 = L.marker(
+                [5.532003041, 7.486002487],
+                {}
+            ).addTo(map_95a96b304a664cbba74b491c91e1508f);
+        
+    
+            var icon_47a1cb96550b44e096351f8692527326 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9820f4c0ae7f4e819fb0cb96ce6075e6.setIcon(icon_47a1cb96550b44e096351f8692527326);
+        
+    
+        var popup_f7a1250d3e0543198aa813e8db4e0e2e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_74d3be3930db4dccbfe670e61b4f15f9 = $(`<div id="html_74d3be3930db4dccbfe670e61b4f15f9" style="width: 100.0%; height: 100.0%;">Abia</div>`)[0];
+            popup_f7a1250d3e0543198aa813e8db4e0e2e.setContent(html_74d3be3930db4dccbfe670e61b4f15f9);
+        
+
+        marker_9820f4c0ae7f4e819fb0cb96ce6075e6.bindPopup(popup_f7a1250d3e0543198aa813e8db4e0e2e)
+        ;
+
+        
+    
+    
+            var marker_2749f4f6506546928ee6da36e0e26677 = L.marker(
+                [10.2703408, 13.2700321],
+                {}
+            ).addTo(map_95a96b304a664cbba74b491c91e1508f);
+        
+    
+            var icon_a40212301153464b959afe756a98d76c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2749f4f6506546928ee6da36e0e26677.setIcon(icon_a40212301153464b959afe756a98d76c);
+        
+    
+        var popup_983d3ec78d1d4103b69ec5ba687fb60b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f9e1443822746a9aaca1f64b3a2b027 = $(`<div id="html_4f9e1443822746a9aaca1f64b3a2b027" style="width: 100.0%; height: 100.0%;">Adamawa</div>`)[0];
+            popup_983d3ec78d1d4103b69ec5ba687fb60b.setContent(html_4f9e1443822746a9aaca1f64b3a2b027);
+        
+
+        marker_2749f4f6506546928ee6da36e0e26677.bindPopup(popup_983d3ec78d1d4103b69ec5ba687fb60b)
+        ;
+
+        
+    
+    
+            var marker_97ddeb6326354f15ab2e2e1ddff666ae = L.marker(
+                [5.007996056, 7.849998524],
+                {}
+            ).addTo(map_95a96b304a664cbba74b491c91e1508f);
+        
+    
+            var icon_11f1da631c10417cadf914582ffb348f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_97ddeb6326354f15ab2e2e1ddff666ae.setIcon(icon_11f1da631c10417cadf914582ffb348f);
+        
+    
+        var popup_791ef76c56a84ed5974814aa967e0ea0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a883718b88e4df9a8b594378c2627c5 = $(`<div id="html_9a883718b88e4df9a8b594378c2627c5" style="width: 100.0%; height: 100.0%;">Akwa Ibom</div>`)[0];
+            popup_791ef76c56a84ed5974814aa967e0ea0.setContent(html_9a883718b88e4df9a8b594378c2627c5);
+        
+
+        marker_97ddeb6326354f15ab2e2e1ddff666ae.bindPopup(popup_791ef76c56a84ed5974814aa967e0ea0)
+        ;
+
+        
+    
+    
+            var marker_d0216f1460f1409298d68d29c1597408 = L.marker(
+                [9.05785, 7.49508],
+                {}
+            ).addTo(map_95a96b304a664cbba74b491c91e1508f);
+        
+    
+            var icon_6beb0381252148b4b3d2c078c0d697e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_d0216f1460f1409298d68d29c1597408.setIcon(icon_6beb0381252148b4b3d2c078c0d697e8);
+        
+    
+        var popup_45943537ae62454aae3aede250190cd4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f7791b6d0bc4266891350b328b8389f = $(`<div id="html_2f7791b6d0bc4266891350b328b8389f" style="width: 100.0%; height: 100.0%;">Abuja State</div>`)[0];
+            popup_45943537ae62454aae3aede250190cd4.setContent(html_2f7791b6d0bc4266891350b328b8389f);
+        
+
+        marker_d0216f1460f1409298d68d29c1597408.bindPopup(popup_45943537ae62454aae3aede250190cd4)
+        ;
+
+        
+    
+    
+            var marker_7a469923755848b68ff37eae994640de = L.marker(
+                [7.401962, 3.917313],
+                {}
+            ).addTo(map_95a96b304a664cbba74b491c91e1508f);
+        
+    
+            var icon_ebec1162f78144e18ddb9f37fd964b13 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_7a469923755848b68ff37eae994640de.setIcon(icon_ebec1162f78144e18ddb9f37fd964b13);
+        
+    
+        var popup_c3e075a2e0a7489c9389466eee15d1b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b60ac2f03fcf411cbc1cd12afc532d03 = $(`<div id="html_b60ac2f03fcf411cbc1cd12afc532d03" style="width: 100.0%; height: 100.0%;">Ibadan state</div>`)[0];
+            popup_c3e075a2e0a7489c9389466eee15d1b4.setContent(html_b60ac2f03fcf411cbc1cd12afc532d03);
+        
+
+        marker_7a469923755848b68ff37eae994640de.bindPopup(popup_c3e075a2e0a7489c9389466eee15d1b4)
+        ;
+
+        
+    
+    
+            var marker_e8ee158777d949f8b91687dd5725077b = L.marker(
+                [5.54423, 5.760269],
+                {}
+            ).addTo(map_95a96b304a664cbba74b491c91e1508f);
+        
+    
+            var icon_3fd9e7780d30462b9e952b82c9420aa5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_e8ee158777d949f8b91687dd5725077b.setIcon(icon_3fd9e7780d30462b9e952b82c9420aa5);
+        
+    
+        var popup_d205db2588784428b491cd49ebd2510e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1e4b04c304b4ca89736c613ac3ff9ce = $(`<div id="html_a1e4b04c304b4ca89736c613ac3ff9ce" style="width: 100.0%; height: 100.0%;">Warri, Delta, state</div>`)[0];
+            popup_d205db2588784428b491cd49ebd2510e.setContent(html_a1e4b04c304b4ca89736c613ac3ff9ce);
+        
+
+        marker_e8ee158777d949f8b91687dd5725077b.bindPopup(popup_d205db2588784428b491cd49ebd2510e)
+        ;
+
+        
+    
+    
+            var marker_007e750d9454486a8cf59015753932f1 = L.marker(
+                [6.465422, 3.406448],
+                {}
+            ).addTo(map_95a96b304a664cbba74b491c91e1508f);
+        
+    
+            var icon_c92831d46fc4488aad3a17c95d569f53 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_007e750d9454486a8cf59015753932f1.setIcon(icon_c92831d46fc4488aad3a17c95d569f53);
+        
+    
+        var popup_c7d84a4074ca4966b34a55ac1639c321 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d54722097f834917a565699ebffe1d42 = $(`<div id="html_d54722097f834917a565699ebffe1d42" style="width: 100.0%; height: 100.0%;">Lagos state</div>`)[0];
+            popup_c7d84a4074ca4966b34a55ac1639c321.setContent(html_d54722097f834917a565699ebffe1d42);
+        
+
+        marker_007e750d9454486a8cf59015753932f1.bindPopup(popup_c7d84a4074ca4966b34a55ac1639c321)
+        ;
+
+        
+    
+</script>
